@@ -125,7 +125,7 @@ def plot_results(dates, close_prices, predicted, future_dates, future_prediction
     plt.show()
 
 # 주요 실행 흐름
-file_path =  'C:/Users/jungj/Downloads/066570 과거 데이터.csv'
+file_path =  '경로'
 close_prices, close_prices_normalized, dates, scaler = load_and_preprocess_data(file_path)
 
 seq_length = 50
